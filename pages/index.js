@@ -8,7 +8,6 @@ import pic2 from "./images.jpeg";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <section className='maincontainer'>
         <div className='wrapper'>
           <Image
