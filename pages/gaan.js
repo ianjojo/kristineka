@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import styles from "../styles/Gaan.module.css";
-function gaan() {
+/* import LightGallery from "lightgallery/react";
+import Lightbox from "../components/Lightbox";
+// import plugins if you need
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom"; */
+function Gaan() {
   return (
     <div className='blackbg'>
       <div className='container'>
         <div className='wrapper'>
+          {/*         <LightGallery speed={200} plugins={[lgZoom]}>
+            <a href='/gaan/01.jpeg'> */}
           <Image
             src='/gaan/01.jpeg'
             alt='Picture of the author'
@@ -14,8 +21,12 @@ function gaan() {
             height='873'
             width='1500'
           />
+          {/*        </a>
+          </LightGallery> */}
         </div>
         <div className='wrapper'>
+          {/*           <LightGallery speed={200} plugins={[lgZoom]}>
+            <a href='/gaan/02.jpeg'> */}
           <Image
             src='/gaan/02.jpeg'
             alt='Picture of the author'
@@ -24,8 +35,12 @@ function gaan() {
             height='560'
             width='1750'
           />
+          {/*     </a>
+          </LightGallery> */}
         </div>
         <div className='wrapper'>
+          {/*    <LightGallery speed={200} plugins={[lgZoom]}>
+            <a href='/gaan/03.gif'> */}
           <Image
             src='/gaan/03.gif'
             alt='Picture of the author'
@@ -34,6 +49,8 @@ function gaan() {
             height='873'
             width='1500'
           />
+          {/*         </a>
+          </LightGallery> */}
         </div>
         <div className='wrapper imagewrapper'>
           <Image
@@ -178,4 +195,4 @@ function gaan() {
   );
 }
 
-export default gaan;
+export default Gaan;

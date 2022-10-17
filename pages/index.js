@@ -42,30 +42,40 @@ export default function Home() {
             </div>
           </a>
         </Link>
-        <div className='wrapper'>
-          <p className='project3'>Pizza Castle | Visual Identity & Packaging</p>
-          <Image
-            alt='yes'
-            className='imglink'
-            layout='responsive'
-            objectFit='cover'
-            src='/pizzacastle.jpeg'
-            height='1080'
-            width='1920'
-          />
-        </div>
-        <div className='wrapper'>
-          <p className='project4'>Spread&apos;em Kitchen | Brochure</p>
-          <Image
-            alt='yes'
-            className='imglink'
-            layout='responsive'
-            objectFit='cover'
-            src='/spreadembrochure.jpeg'
-            height='1080'
-            width='1920'
-          />
-        </div>
+        <Link href='/pizzacastle'>
+          <a>
+            <div className='wrapper'>
+              <p className='project3'>
+                Pizza Castle | Visual Identity & Packaging
+              </p>
+              <Image
+                alt='yes'
+                className='imglink'
+                layout='responsive'
+                objectFit='cover'
+                src='/pizzacastle.jpeg'
+                height='1080'
+                width='1920'
+              />
+            </div>
+          </a>
+        </Link>
+        <Link href='/sk-brochure'>
+          <a>
+            <div className='wrapper'>
+              <p className='project4'>Spread&apos;em Kitchen | Brochure</p>
+              <Image
+                alt='yes'
+                className='imglink'
+                layout='responsive'
+                objectFit='cover'
+                src='/spreadembrochure.jpeg'
+                height='1080'
+                width='1920'
+              />
+            </div>
+          </a>
+        </Link>
         <div className='wrapper'>
           <p className='project5'>ISLANDS | Visual Identity & Packaging</p>
           <Image
