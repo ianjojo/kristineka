@@ -1,0 +1,37 @@
+.container {
+  padding-top: 100px;
+  max-width: 1500px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.textbox {
+  padding: 20px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #515151;
+  margin-bottom: 0;
+}
+
+.text {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #515151;
+}
+
+.imagewrapper {
+  margin-bottom: 16px;
+}
+
+.twoimages {
+  display: flex;
+  flex-direction: row;
+}
