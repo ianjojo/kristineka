@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
 import pic1 from "./architecture.webp";
-import pic2 from "./images.jpeg";
+import pic2 from "./images.webp";
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/issa.jpeg'
+                src='/issa.webp'
                 height='1080'
                 width='1920'
               />
@@ -35,7 +35,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/gaan.jpeg'
+                src='/gaan.webp'
                 height='1080'
                 width='1920'
               />
@@ -53,7 +53,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/pizzacastle.jpeg'
+                src='/pizzacastle.webp'
                 height='1080'
                 width='1920'
               />
@@ -69,7 +69,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/spreadembrochure.jpeg'
+                src='/spreadembrochure.webp'
                 height='1080'
                 width='1920'
               />
@@ -85,7 +85,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/islands.jpeg'
+                src='/islands.webp'
                 height='1080'
                 width='1920'
               />
@@ -101,7 +101,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/labietis.jpeg'
+                src='/labietis.webp'
                 height='1080'
                 width='1920'
               />
@@ -117,7 +117,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/cannabis.jpeg'
+                src='/cannabis.webp'
                 height='1080'
                 width='1920'
               />
@@ -133,7 +133,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/spreademweb.jpeg'
+                src='/spreademweb.webp'
                 height='1080'
                 width='1920'
               />
