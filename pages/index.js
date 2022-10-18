@@ -19,7 +19,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/issa.webp'
+                src='/issa.jpeg'
                 height='1080'
                 width='1920'
                 sizes='(max-width: 768px) 100vw,
@@ -38,7 +38,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/gaan.webp'
+                src='/gaan.jpeg'
                 height='1080'
                 width='1920'
                 sizes='(max-width: 768px) 100vw,
@@ -59,7 +59,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/pizzacastle.webp'
+                src='/pizzacastle.jpeg'
                 height='1080'
                 width='1920'
                 sizes='(max-width: 768px) 100vw,
@@ -78,7 +78,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/spreadembrochure.webp'
+                src='/spreadembrochure.jpeg'
                 height='1080'
                 width='1920'
                 sizes='(max-width: 768px) 100vw,
@@ -97,7 +97,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/islands.webp'
+                src='/islands.jpeg'
                 height='1080'
                 width='1920'
                 sizes='(max-width: 768px) 100vw,
@@ -116,7 +116,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/labietis.webp'
+                src='/labietis.jpeg'
                 height='1080'
                 width='1920'
                 sizes='(max-width: 768px) 100vw,
@@ -135,7 +135,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/cannabis.webp'
+                src='/cannabis.jpeg'
                 height='1080'
                 width='1920'
                 sizes='(max-width: 768px) 100vw,
@@ -154,7 +154,7 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/spreademweb.webp'
+                src='/spreademweb.jpeg'
                 height='1080'
                 width='1920'
                 sizes='(max-width: 768px) 100vw,

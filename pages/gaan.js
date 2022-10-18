@@ -12,9 +12,9 @@ function Gaan() {
       <div className='container'>
         <div className='wrapper'>
           {/*         <LightGallery speed={200} plugins={[lgZoom]}>
-            <a href='/gaan/01.jpeg'> */}
+            <a href='/gaan/01.webp'> */}
           <Image
-            src='/gaan/01.jpeg'
+            src='/gaan/01.webp'
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -26,9 +26,9 @@ function Gaan() {
         </div>
         <div className='wrapper'>
           {/*           <LightGallery speed={200} plugins={[lgZoom]}>
-            <a href='/gaan/02.jpeg'> */}
+            <a href='/gaan/02.webp'> */}
           <Image
-            src='/gaan/02.jpeg'
+            src='/gaan/02.webp'
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -54,7 +54,7 @@ function Gaan() {
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/gaan/04.jpeg'
+            src='/gaan/04.webp'
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -65,7 +65,7 @@ function Gaan() {
         <div className='twoimages'>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/05.jpeg'
+              src='/gaan/05.webp'
               alt='Picture of the author'
               objectFit='cover'
               height='770'
@@ -74,7 +74,7 @@ function Gaan() {
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/06.jpeg'
+              src='/gaan/06.webp'
               alt='Picture of the author'
               objectFit='cover'
               height='770'
@@ -84,7 +84,7 @@ function Gaan() {
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/gaan/07.jpeg'
+            src='/gaan/07.webp'
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -94,7 +94,7 @@ function Gaan() {
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/gaan/08.jpeg'
+            src='/gaan/08.webp'
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -104,7 +104,7 @@ function Gaan() {
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/gaan/09.jpeg'
+            src='/gaan/09.webp'
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -115,7 +115,7 @@ function Gaan() {
         <div className='twoimages'>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/10.jpeg'
+              src='/gaan/10.webp'
               alt='Picture of the author'
               objectFit='cover'
               height='1100'
@@ -134,7 +134,7 @@ function Gaan() {
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/gaan/12.jpeg'
+            src='/gaan/12.webp'
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -144,7 +144,7 @@ function Gaan() {
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/gaan/13.jpeg'
+            src='/gaan/13.webp'
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -164,7 +164,7 @@ function Gaan() {
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/15.jpeg'
+              src='/gaan/15.webp'
               alt='Picture of the author'
               objectFit='cover'
               height='872'
