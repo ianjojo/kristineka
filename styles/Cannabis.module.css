@@ -1,0 +1,41 @@
+.wrapper {
+  position: relative;
+}
+
+.container {
+  padding: 70px 16px 16px 16px;
+}
+.textbox {
+  padding: 30px 40px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: var(--title-size);
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.text {
+  padding-top: 0;
+  margin-top: 0;
+  font-size: var(--text-size);
+  color: var(--white);
+}
+
+.lg-counter {
+  display: none !important;
+}
+
+.imagewrapper {
+  margin-bottom: 16px;
+}
+
+.blackbg {
+  background-color: black;
+}
+
+.twoimages {
+  display: flex;
+  flex-direction: row;
+}

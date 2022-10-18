@@ -22,6 +22,9 @@ export default function Home() {
                 src='/issa.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -38,6 +41,9 @@ export default function Home() {
                 src='/gaan.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -56,6 +62,9 @@ export default function Home() {
                 src='/pizzacastle.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -72,58 +81,89 @@ export default function Home() {
                 src='/spreadembrochure.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
         </Link>
-        <div className='wrapper'>
-          <p className='project5'>ISLANDS | Visual Identity & Packaging</p>
-          <Image
-            alt='yes'
-            className='imglink'
-            layout='responsive'
-            objectFit='cover'
-            src='/islands.jpeg'
-            height='1080'
-            width='1920'
-          />
-        </div>
-        <div className='wrapper'>
-          <p className='project6'>Labietis | Logo & Labels</p>
-          <Image
-            alt='yes'
-            className='imglink'
-            layout='responsive'
-            objectFit='cover'
-            src='/labietis.jpeg'
-            height='1080'
-            width='1920'
-          />
-        </div>
-        <div className='wrapper'>
-          <p className='project7'>Cannabis Potcast | Visual Identity</p>
-          <Image
-            alt='yes'
-            className='imglink'
-            layout='responsive'
-            objectFit='cover'
-            src='/cannabis.jpeg'
-            height='1080'
-            width='1920'
-          />
-        </div>
-        <div className='wrapper'>
-          <p className='project8'>Spread&apos;em Kitchen | Web & social</p>
-          <Image
-            alt='yes'
-            className='imglink'
-            layout='responsive'
-            objectFit='cover'
-            src='/spreademweb.jpeg'
-            height='1080'
-            width='1920'
-          />
-        </div>
+        <Link href='/islands'>
+          <a>
+            <div className='wrapper'>
+              <p className='project5'>ISLANDS | Visual Identity & Packaging</p>
+              <Image
+                alt='yes'
+                className='imglink'
+                layout='responsive'
+                objectFit='cover'
+                src='/islands.jpeg'
+                height='1080'
+                width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
+              />
+            </div>
+          </a>
+        </Link>
+        <Link href='/labietis'>
+          <a>
+            <div className='wrapper'>
+              <p className='project6'>Labietis | Logo & Labels</p>
+              <Image
+                alt='yes'
+                className='imglink'
+                layout='responsive'
+                objectFit='cover'
+                src='/labietis.jpeg'
+                height='1080'
+                width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
+              />
+            </div>
+          </a>
+        </Link>
+        <Link href='/cannabis-potcast'>
+          <a>
+            <div className='wrapper'>
+              <p className='project7'>Cannabis Potcast | Visual Identity</p>
+              <Image
+                alt='yes'
+                className='imglink'
+                layout='responsive'
+                objectFit='cover'
+                src='/cannabis.jpeg'
+                height='1080'
+                width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
+              />
+            </div>
+          </a>
+        </Link>
+        <Link href='/sk-web'>
+          <a>
+            <div className='wrapper'>
+              <p className='project8'>Spread&apos;em Kitchen | Web & social</p>
+              <Image
+                alt='yes'
+                className='imglink'
+                layout='responsive'
+                objectFit='cover'
+                src='/spreademweb.jpeg'
+                height='1080'
+                width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
+              />
+            </div>
+          </a>
+        </Link>
       </section>
     </>
   );
