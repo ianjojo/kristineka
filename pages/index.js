@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
-import pic1 from "./architecture.webp";
-import pic2 from "./images.webp";
 
 export default function Home() {
   return (
