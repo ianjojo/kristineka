@@ -22,6 +22,9 @@ export default function Home() {
                 src='/issa.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -38,6 +41,9 @@ export default function Home() {
                 src='/gaan.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -56,6 +62,9 @@ export default function Home() {
                 src='/pizzacastle.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -72,6 +81,9 @@ export default function Home() {
                 src='/spreadembrochure.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -88,6 +100,9 @@ export default function Home() {
                 src='/islands.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -104,6 +119,9 @@ export default function Home() {
                 src='/labietis.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -120,6 +138,9 @@ export default function Home() {
                 src='/cannabis.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
@@ -136,6 +157,9 @@ export default function Home() {
                 src='/spreademweb.jpeg'
                 height='1080'
                 width='1920'
+                sizes='(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw'
               />
             </div>
           </a>
