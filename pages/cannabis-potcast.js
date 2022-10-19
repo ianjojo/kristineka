@@ -2,6 +2,16 @@ import React from "react";
 import Image from "next/image";
 import styles from "../styles/Cannabis.module.css";
 import Footer from "../components/Footer";
+import img01 from "../public/cannabis/01.gif";
+import img02 from "../public/cannabis/02.webp";
+import img03 from "../public/cannabis/03.gif";
+import img04 from "../public/cannabis/04.webp";
+import img05 from "../public/cannabis/05.webp";
+import img06 from "../public/cannabis/06.webp";
+import img07 from "../public/cannabis/07.webp";
+import img08 from "../public/cannabis/08.webp";
+import img09 from "../public/cannabis/09.gif";
+
 export default function labietis() {
   return (
     <>
@@ -9,7 +19,7 @@ export default function labietis() {
         <div className={styles.container}>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/cannabis/01.gif'
+              src={img01}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
@@ -19,7 +29,7 @@ export default function labietis() {
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/cannabis/02.jpg'
+              src={img02}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
@@ -51,7 +61,7 @@ export default function labietis() {
           <div className='twoimages smallgap'>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/cannabis/03.gif'
+                src={img03}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='1073'
@@ -60,57 +70,62 @@ export default function labietis() {
             </div>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/cannabis/04.jpg'
+                src={img04}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='1073'
                 width='1000'
+                placeholder='blur'
               />
             </div>
           </div>{" "}
           <div className='wrapper imagewrapper'>
             <Image
-              src='/cannabis/05.jpg'
+              src={img05}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='988'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/cannabis/06.jpg'
+              src={img06}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='1188'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='twoimages smallgap'>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/cannabis/07.jpg'
+                src={img07}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='600'
                 width='1000'
+                placeholder='blur'
               />
             </div>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/cannabis/08.jpg'
+                src={img08}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='600'
                 width='1000'
+                placeholder='blur'
               />
             </div>
           </div>{" "}
           <div className='wrapper imagewrapper'>
             <Image
-              src='/cannabis/09.gif'
+              src={img09}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'

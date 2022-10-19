@@ -2,157 +2,172 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "../styles/Gaan.module.css";
 import Footer from "../components/Footer";
+import img01 from "../public/gaan/01.webp";
+import img02 from "../public/gaan/02.webp";
+import img03 from "../public/gaan/03.gif";
+import img04 from "../public/gaan/04.webp";
+import img05 from "../public/gaan/05.webp";
+import img06 from "../public/gaan/06.webp";
+import img07 from "../public/gaan/07.webp";
+import img08 from "../public/gaan/08.webp";
+import img09 from "../public/gaan/09.webp";
+import img10 from "../public/gaan/10.webp";
+import img11 from "../public/gaan/11.gif";
+import img12 from "../public/gaan/12.webp";
+import img13 from "../public/gaan/13.webp";
+import img14 from "../public/gaan/14.gif";
+import img15 from "../public/gaan/15.webp";
+
 function Gaan() {
   return (
     <>
       <div className='blackbg'>
         <div className='container'>
           <div className='wrapper'>
-            {/*         <LightGallery speed={200} plugins={[lgZoom]}>
-            <a href='/gaan/01.webp'> */}
             <Image
-              src='/gaan/01.webp'
+              src={img01}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='873'
               width='1500'
+              placeholder='blur'
             />
-            {/*        </a>
-          </LightGallery> */}
           </div>
           <div className='wrapper'>
-            {/*           <LightGallery speed={200} plugins={[lgZoom]}>
-            <a href='/gaan/02.webp'> */}
             <Image
-              src='/gaan/02.webp'
+              src={img02}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='560'
               width='1750'
+              placeholder='blur'
             />
-            {/*     </a>
-          </LightGallery> */}
           </div>
           <div className='wrapper'>
-            {/*    <LightGallery speed={200} plugins={[lgZoom]}>
-            <a href='/gaan/03.gif'> */}
             <Image
-              src='/gaan/03.gif'
+              src={img03}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='873'
               width='1500'
             />
-            {/*         </a>
-          </LightGallery> */}
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/04.webp'
+              src={img04}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='873'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='twoimages'>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/gaan/05.webp'
+                src={img05}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='770'
                 width='1000'
+                placeholder='blur'
               />
             </div>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/gaan/06.webp'
+                src={img06}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='770'
                 width='750'
+                placeholder='blur'
               />
             </div>
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/07.webp'
+              src={img07}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='873'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/08.webp'
+              src={img08}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='873'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/09.webp'
+              src={img09}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='873'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='twoimages'>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/gaan/10.webp'
+                src={img10}
+                alt='Picture of the author'
+                objectFit='cover'
+                height='1100'
+                width='1000'
+                placeholder='blur'
+              />
+            </div>
+            <div className='wrapper imagewrapper'>
+              <Image
+                src={img11}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='1100'
                 width='1000'
               />
             </div>
-            <div className='wrapper imagewrapper'>
-              <Image
-                src='/gaan/11.gif'
-                alt='Picture of the author'
-                objectFit='cover'
-                height='1100'
-                width='1000'
-              />
-            </div>
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/12.webp'
+              src={img12}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='873'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/gaan/13.webp'
+              src={img13}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='873'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='twoimages'>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/gaan/14.gif'
+                src={img14}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='872'
@@ -161,11 +176,12 @@ function Gaan() {
             </div>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/gaan/15.webp'
+                src={img15}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='872'
                 width='1000'
+                placeholder='blur'
               />
             </div>
           </div>

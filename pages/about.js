@@ -1,8 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import Image from "next/image";
-import kristine from "../public/kristine.jpeg";
-import breadlabels from "../public/breadlabels.jpeg";
+import kristine from "../public/kristine.webp";
+import breadlabels from "../public/breadlabels.webp";
 import Footer from "../components/Footer";
 export default function about() {
   return (
