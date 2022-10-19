@@ -2,11 +2,12 @@ import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import Mail from "../components/Mail";
-export default function Navbar() {
+export default function Navbar(props) {
   const [show, setShow] = React.useState(false);
   const handleClick = () => {
     setShow(!show);
     console.log(show);
+    props.goToTop();
   };
   return (
     <nav>
@@ -22,7 +23,7 @@ export default function Navbar() {
           </li>
         </Link>
 
-        <Mail />
+        <Mail goToTop={props.goToTop} />
       </ul>
     </nav>
   );
