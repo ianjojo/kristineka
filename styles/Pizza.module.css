@@ -11,7 +11,7 @@
 
 .title {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: var(--title-size);
   color: #515151;
   margin-bottom: 0;
 }
@@ -19,7 +19,7 @@
 .text {
   padding-top: 0;
   margin-top: 0;
-  font-size: 1.5rem;
+  font-size: var(--text-size);
   color: #515151;
 }
 

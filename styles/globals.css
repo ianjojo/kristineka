@@ -4,7 +4,7 @@
   --text-size: 1.1rem;
   --title-size: 1.3rem;
   --black: #000;
-  --white: #c8c8c8;
+  --white: #dcdbdb;
 }
 html,
 body {
@@ -209,7 +209,7 @@ a:hover {
 }
 .title {
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: var(--title-size);
   color: #515151;
   margin-bottom: 0;
 }
@@ -217,7 +217,7 @@ a:hover {
 .text {
   padding-top: 0;
   margin-top: 0;
-  font-size: 1.25rem;
+  font-size: var(--text-size);
   color: #515151;
 }
 
@@ -247,11 +247,30 @@ a:hover {
   background-color: black;
 }
 
+.blackfooter {
+  margin: 0;
+  padding: 20px;
+  font-size: 0.6rem;
+  background-color: black;
+  color: white;
+}
+
 .twoimages {
   display: flex;
   flex-direction: row;
 }
 
+.copyright {
+  font-size: 0.6rem;
+}
+
+.whitefooter {
+  margin: 0;
+  padding: 20px;
+  font-size: 0.6rem;
+  background-color: white;
+  color: black;
+}
 @media (max-width: 779px) {
   .container {
     max-width: 85%;
@@ -266,5 +285,9 @@ a:hover {
   }
   .rightbox {
     width: 100%;
+  }
+
+  .twoimages {
+    flex-direction: column;
   }
 }

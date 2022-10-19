@@ -1,5 +1,10 @@
 import React from "react";
 
-export default function Footer() {
-  return <div className='center'>copyright 2022 kiki</div>;
+export default function Footer(props) {
+  console.log(props);
+  return (
+    <div className='center'>
+      <p className={props.mode}>© 2022 Kristine Kalva</p>
+    </div>
+  );
 }

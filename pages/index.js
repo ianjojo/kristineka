@@ -12,7 +12,7 @@ import spreademweb from "../public/spreademweb.webp";
 import pizzacastle from "../public/pizzacastle.webp";
 import spreadembrochure from "../public/spreadembrochure.webp";
 import labietis from "../public/labietis.webp";
-
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
@@ -160,6 +160,7 @@ export default function Home() {
           </a>
         </Link>
       </section>
+      <Footer mode='whitefooter' />
     </>
   );
 }

@@ -36,6 +36,9 @@ function Mail(props) {
   const mailBox = (
     <div className={styles.container}>
       <form className={styles.form} ref={form} onSubmit={sendEmail}>
+        <p className={styles.x} onClick={handleClick}>
+          ⓧ
+        </p>
         <input
           type='text'
           placeholder='Name'
