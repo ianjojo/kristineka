@@ -1,13 +1,26 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import styles from "../styles/Home.module.css";
 import Navbar from "../components/Navbar";
+import gaan from "../public/gaan.webp";
+import cannabis from "../public/cannabis.webp";
+import islands from "../public/islands.webp";
+import issa from "../public/issa.webp";
+import spreademweb from "../public/spreademweb.webp";
+import pizzacastle from "../public/pizzacastle.webp";
+import spreadembrochure from "../public/spreadembrochure.webp";
+import labietis from "../public/labietis.webp";
 
 export default function Home() {
   return (
     <>
       <section className='maincontainer'>
+        <Head>
+          <title>Kristine Kalva</title>
+          <meta property='og:title' content='Kristine Kalva' key='title' />
+        </Head>
         <Link href='/issa'>
           <a>
             <div className='wrapper'>
@@ -17,7 +30,8 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/issa.webp'
+                src={issa}
+                placeholder='blur'
                 height='1080'
                 width='1920'
               />
@@ -33,7 +47,8 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/gaan.webp'
+                src={gaan}
+                placeholder='blur'
                 height='1080'
                 width='1920'
               />
@@ -51,7 +66,8 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/pizzacastle.webp'
+                src={pizzacastle}
+                placeholder='blur'
                 height='1080'
                 width='1920'
               />
@@ -67,7 +83,8 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/spreadembrochure.webp'
+                src={spreadembrochure}
+                placeholder='blur'
                 height='1080'
                 width='1920'
               />
@@ -83,7 +100,8 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/islands.webp'
+                src={islands}
+                placeholder='blur'
                 height='1080'
                 width='1920'
               />
@@ -99,7 +117,8 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/labietis.webp'
+                src={labietis}
+                placeholder='blur'
                 height='1080'
                 width='1920'
               />
@@ -115,7 +134,8 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/cannabis.webp'
+                src={cannabis}
+                placeholder='blur'
                 height='1080'
                 width='1920'
               />
@@ -131,7 +151,8 @@ export default function Home() {
                 className='imglink'
                 layout='responsive'
                 objectFit='cover'
-                src='/spreademweb.webp'
+                src={spreademweb}
+                placeholder='blur'
                 height='1080'
                 width='1920'
               />

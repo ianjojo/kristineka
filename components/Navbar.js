@@ -1,6 +1,13 @@
 import React from "react";
 import Link from "next/link";
+import { useState } from "react";
+import Mail from "../components/Mail";
 export default function Navbar() {
+  const [show, setShow] = React.useState(false);
+  const handleClick = () => {
+    setShow(!show);
+    console.log(show);
+  };
   return (
     <nav>
       <ul className='navbar'>
@@ -14,11 +21,8 @@ export default function Navbar() {
             <a>About</a>
           </li>
         </Link>
-        <Link href='/contact'>
-          <li className='navbar__link'>
-            <a>Contact me</a>
-          </li>
-        </Link>
+
+        <Mail />
       </ul>
     </nav>
   );

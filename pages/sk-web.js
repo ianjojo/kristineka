@@ -14,7 +14,7 @@ function skWeb() {
           <source src='/skweb/01.mp4' type='video/mp4' />
         </video>
       </div>
-      <div className='twoimages'>
+      <div className='twoimages '>
         <div className='vidwrapperhalf'>
           <video width='100%' className='videoi' loop autoPlay='true'>
             <source src='/skweb/03.mp4' type='video/mp4' />
@@ -24,11 +24,21 @@ function skWeb() {
           <Image
             src='/skweb/04.jpg'
             alt='Picture of the author'
-            objectFit='contain'
+            objectFit='cover'
             height='640'
             width='1000'
           />
         </div>
+      </div>
+      <div className='wrapper imagewrapper'>
+        <Image
+          src='/skweb/05.jpg'
+          alt='Picture of the author'
+          layout='responsive'
+          objectFit='cover'
+          height='873'
+          width='1500'
+        />
       </div>
     </div>
   );

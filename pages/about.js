@@ -1,8 +1,15 @@
 import React from "react";
+import Head from "next/head";
 import Image from "next/image";
+import kristine from "../public/kristine.jpeg";
+import breadlabels from "../public/breadlabels.jpeg";
 export default function about() {
   return (
     <div className='about-container'>
+      <Head>
+        <title>Kristine Kalva | About</title>
+        <meta property='og:title' content='About Kristine Kalva' key='title' />
+      </Head>
       <div className='leftbox'></div>
       <div className='rightbox'>
         <p className='about-text'>
@@ -14,7 +21,8 @@ export default function about() {
         </p>
         <div className='wrapper'>
           <Image
-            src='/kristine.jpeg'
+            src={kristine}
+            placeholder='blur'
             alt='Kristine'
             width={1000}
             height={639}
@@ -29,7 +37,8 @@ export default function about() {
         <div className='wrapper center'>
           <Image
             className='about-img'
-            src='/breadlabels.jpeg'
+            src={breadlabels}
+            placeholder='blur'
             alt='Bread Labels'
             width={458}
             height={458}

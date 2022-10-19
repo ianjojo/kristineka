@@ -7,7 +7,7 @@ function NotFound() {
     }, 3000);
   }, []);
   return (
-    <div className='centerbox'>
+    <div className='container'>
       <h1 className=''>404 - page not found</h1>
       <h3>👻</h3>
     </div>
