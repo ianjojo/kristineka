@@ -26,6 +26,15 @@ body {
   box-sizing: border-box;
 }
 
+.margin-bottom {
+  margin-bottom: 26px;
+}
+.pad {
+  margin-bottom: 26px;
+}
+.margin-bottom-less {
+  margin-bottom: 400px;
+}
 .randomlink {
   color: var(--black);
   text-decoration: none;

@@ -4,18 +4,18 @@ import Image from "next/image";
 import Footer from "../components/Footer";
 import Head from "next/head";
 
-import img01 from "../public/islands/01.webp";
-import img02 from "../public/islands/02.webp";
-import img03 from "../public/islands/03.webp";
-import img04 from "../public/islands/04.webp";
+import img01 from "../public/islands/01.jpeg";
+import img02 from "../public/islands/02.jpeg";
+import img03 from "../public/islands/03.jpeg";
+import img04 from "../public/islands/04.jpeg";
 import img05 from "../public/islands/05.gif";
-import img06 from "../public/islands/06.webp";
-import img07 from "../public/islands/07.webp";
-import img08 from "../public/islands/08.webp";
-import img09 from "../public/islands/09.webp";
+import img06 from "../public/islands/06.jpeg";
+import img07 from "../public/islands/07.jpeg";
+import img08 from "../public/islands/08.jpeg";
+import img09 from "../public/islands/09.jpeg";
 import img10 from "../public/islands/10.jpeg";
-import img11 from "../public/islands/11.webp";
-import img12 from "../public/islands/12.webp";
+import img11 from "../public/islands/11.jpeg";
+import img12 from "../public/islands/12.jpeg";
 
 export default function islands() {
   return (
@@ -27,8 +27,8 @@ export default function islands() {
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
-            height='938'
-            width='2000'
+            height='1040'
+            width='2500'
           />
         </div>
         <div className={styles.textbox}>
@@ -47,14 +47,14 @@ export default function islands() {
             combination was used to create a boutique and natural feel.
           </p>
         </div>
-        <div className='twoimages'>
+        <div className='twoimages margin-bottom'>
           <div className='wrapper '>
             <Image
               src={img02}
               alt='Picture of the author'
-              objectFit='cover'
-              height='1300'
-              width='1000'
+              objectFit='contain'
+              height='1875'
+              width='1500'
               placeholder='blur'
             />
           </div>
@@ -62,32 +62,33 @@ export default function islands() {
             <Image
               src={img03}
               alt='Picture of the author'
-              objectFit='cover'
-              height='1300'
-              width='1000'
+              objectFit='contain'
+              height='1875'
+              width='1500'
               placeholder='blur'
             />
           </div>
         </div>
-        <div className='wrapper imagewrapper'>
-          <Image
-            src={img04}
-            alt='Picture of the author'
-            layout='responsive'
-            objectFit='cover'
-            height='938'
-            width='2000'
-            placeholder='blur'
-          />
+        <div className='pad'>
+          <div className='wrapper imagewrapper margin-bottom'>
+            <Image
+              src={img04}
+              alt='Picture of the author'
+              objectFit='contain'
+              height='1389'
+              width='2500'
+              placeholder='blur'
+            />
+          </div>
         </div>
-        <div className='twoimages'>
+        <div className='twoimages margin-bottom'>
           <div className='wrapper '>
             <Image
               src={img05}
               alt='Picture of the author'
               objectFit='cover'
-              height='1300'
-              width='1000'
+              height='1875'
+              width='1500'
             />
           </div>
           <div className='wrapper '>
@@ -95,22 +96,25 @@ export default function islands() {
               src={img06}
               alt='Picture of the author'
               objectFit='cover'
-              height='1300'
-              width='1000'
+              height='1875'
+              width='1500'
               placeholder='blur'
             />
           </div>
         </div>
-        <div className='wrapper imagewrapper'>
-          <Image
-            src={img07}
-            alt='Picture of the author'
-            layout='responsive'
-            objectFit='cover'
-            height='938'
-            width='2000'
-            placeholder='blur'
-          />
+
+        <div className='margin-bottom'>
+          <div className='wrapper imagewrapper '>
+            <Image
+              src={img07}
+              alt='Picture of the author'
+              layout='responsive'
+              objectFit='cover'
+              height='938'
+              width='2000'
+              placeholder='blur'
+            />
+          </div>
         </div>
         <div className='twoimages'>
           <div className='wrapper '>
@@ -118,8 +122,8 @@ export default function islands() {
               src={img08}
               alt='Picture of the author'
               objectFit='cover'
-              height='1300'
-              width='1000'
+              height='1875'
+              width='1500'
               placeholder='blur'
             />
           </div>
@@ -128,8 +132,8 @@ export default function islands() {
               src={img09}
               alt='Picture of the author'
               objectFit='cover'
-              height='1300'
-              width='1000'
+              height='1875'
+              width='1500'
               placeholder='blur'
             />
           </div>
@@ -140,8 +144,8 @@ export default function islands() {
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
-            height='938'
-            width='2000'
+            height='1667'
+            width='2500'
             placeholder='blur'
           />
         </div>
@@ -151,8 +155,8 @@ export default function islands() {
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
-            height='938'
-            width='2000'
+            height='1665'
+            width='2500'
             placeholder='blur'
           />
         </div>
@@ -162,8 +166,8 @@ export default function islands() {
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
-            height='938'
-            width='2000'
+            height='1667'
+            width='2500'
             placeholder='blur'
           />
         </div>
