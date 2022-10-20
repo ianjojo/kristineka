@@ -14,11 +14,31 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.random {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  bottom: 15px;
+  right: 0;
+}
 * {
   box-sizing: border-box;
 }
 
+.randomlink {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 0.6rem;
+  font-weight: 400;
+  padding: 0px;
+  padding-right: 5px;
+
+  margin: 0;
+}
 .footer {
+  position: relative;
+
   margin: 0;
   padding: 0;
   height: 100%;
@@ -262,7 +282,7 @@ a:hover {
 
 .blackfooter {
   margin: 0;
-  padding: 20px;
+  /*  padding: 20px; */
   font-size: 0.6rem;
   background-color: black;
   color: white;
@@ -276,10 +296,16 @@ a:hover {
 .copyright {
   font-size: 0.6rem;
 }
-
+.footer-wrapper {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+}
 .whitefooter {
   margin: 0;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 0.6rem;
   background-color: white;
   color: black;
