@@ -116,7 +116,7 @@ export default function islands() {
             />
           </div>
         </div>
-        <div className='twoimages'>
+        <div className='twoimages margin-bottom'>
           <div className='wrapper '>
             <Image
               src={img08}
@@ -138,27 +138,31 @@ export default function islands() {
             />
           </div>
         </div>
-        <div className='wrapper imagewrapper'>
-          <Image
-            src={img10}
-            alt='Picture of the author'
-            layout='responsive'
-            objectFit='cover'
-            height='1667'
-            width='2500'
-            placeholder='blur'
-          />
+        <div className='margin-bottom'>
+          <div className='wrapper imagewrapper'>
+            <Image
+              src={img10}
+              alt='Picture of the author'
+              layout='responsive'
+              objectFit='cover'
+              height='1667'
+              width='2500'
+              placeholder='blur'
+            />
+          </div>
         </div>
-        <div className='wrapper imagewrapper'>
-          <Image
-            src={img11}
-            alt='Picture of the author'
-            layout='responsive'
-            objectFit='cover'
-            height='1665'
-            width='2500'
-            placeholder='blur'
-          />
+        <div className='margin-bottom'>
+          <div className='wrapper imagewrapper'>
+            <Image
+              src={img11}
+              alt='Picture of the author'
+              layout='responsive'
+              objectFit='cover'
+              height='1665'
+              width='2500'
+              placeholder='blur'
+            />
+          </div>
         </div>
         <div className='wrapper imagewrapper'>
           <Image
