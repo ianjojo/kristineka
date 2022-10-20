@@ -6,8 +6,6 @@ export default function Navbar(props) {
   const [show, setShow] = React.useState(false);
   const handleClick = () => {
     setShow(!show);
-    console.log(show);
-    props.goToTop();
   };
   return (
     <nav>

@@ -29,6 +29,7 @@ export default function islands() {
             objectFit='cover'
             height='1040'
             width='2500'
+            priority={true}
           />
         </div>
         <div className={styles.textbox}>

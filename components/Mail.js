@@ -1,7 +1,7 @@
 import * as React from "react";
 import { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
-import OutsideClickHandler from "react-outside-click-handler";
+
 import Slide from "@mui/material/Slide";
 
 import styles from "../styles/Mail.module.css";
@@ -18,8 +18,7 @@ function Mail(props) {
       () => {
         const listener = (event) => {
           // Do nothing if clicking ref's element or descendent elements
-          console.log(event);
-          console.log(ref);
+
           if (!ref.current || ref.current.contains(event.target)) {
             return;
           }
@@ -72,11 +71,9 @@ function Mail(props) {
   const handleClick = () => {
     setChecked(!checked);
     // setChecked((prev) => !prev);
-    console.log(checked);
-    props.goToTop();
+
     if (!checked) {
       document.body.style.overflow = "hidden";
-      console.log("overflow hidden");
     } else {
       document.body.style.overflow = "unset";
     }
@@ -124,7 +121,6 @@ function Mail(props) {
       </form>
     </div>
   );
-  console.log(props);
 
   return (
     <>
