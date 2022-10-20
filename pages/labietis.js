@@ -2,6 +2,16 @@ import React from "react";
 import Image from "next/image";
 import styles from "../styles/Labietis.module.css";
 import Footer from "../components/Footer";
+import img01 from "../public/labietis/01.webp";
+import img02 from "../public/labietis/02.webp";
+import img03 from "../public/labietis/03.webp";
+import img04 from "../public/labietis/04.webp";
+import img05 from "../public/labietis/05.webp";
+import img06 from "../public/labietis/06.webp";
+import img07 from "../public/labietis/07.webp";
+import img08 from "../public/labietis/08.webp";
+import img09 from "../public/labietis/09.webp";
+
 export default function labietis() {
   return (
     <>
@@ -9,7 +19,7 @@ export default function labietis() {
         <div className='container'>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/labietis/01.jpg'
+              src={img01}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
@@ -34,82 +44,90 @@ export default function labietis() {
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/labietis/02.png'
+              src={img02}
               alt='Picture of the author'
               layout='responsive'
               objectFit='contain'
               height='600'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/labietis/03.jpg'
+              src={img03}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='973'
+              placeholder='blur'
               width='1500'
             />
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/labietis/04.jpg'
+              src={img04}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='973'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/labietis/05.jpg'
+              src={img05}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='973'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/labietis/06.jpg'
+              src={img06}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='973'
               width='1500'
+              placeholder='blur'
             />
           </div>
           <div className='twoimages'>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/labietis/07.jpg'
+                src={img07}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='1073'
                 width='1000'
+                placeholder='blur'
               />
             </div>
             <div className='wrapper imagewrapper'>
               <Image
-                src='/labietis/08.jpg'
+                src={img08}
                 alt='Picture of the author'
                 objectFit='cover'
                 height='1073'
                 width='1000'
+                placeholder='blur'
               />
             </div>
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/labietis/09.jpg'
+              src={img09}
               alt='Picture of the author'
               layout='responsive'
               objectFit='cover'
               height='973'
               width='1500'
+              placeholder='blur'
             />
           </div>
         </div>

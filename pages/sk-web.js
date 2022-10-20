@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import Image from "next/image";
 import styles from "../styles/skweb.module.css";
 import Footer from "../components/Footer";
+import img02 from "../public/skweb/02.webp";
+
+import img04 from "../public/skweb/04.webp";
+import img05 from "../public/skweb/05.webp";
+
 function skWeb() {
   return (
     <>
@@ -17,6 +22,17 @@ function skWeb() {
             <source src='/skweb/01.mp4' type='video/mp4' />
           </video>
         </div>
+        <div className='wrapper imagewrapper'>
+          <Image
+            src={img02}
+            alt='Picture of the author'
+            layout='responsive'
+            objectFit='cover'
+            height='3530'
+            width='2500'
+            placeholder='blur'
+          />
+        </div>
         <div className='twoimages '>
           <div className='vidwrapperhalf'>
             <video width='100%' className='videoi' loop autoPlay='true'>
@@ -25,22 +41,24 @@ function skWeb() {
           </div>
           <div className='wrapper specialimagewrapper imagewrapper'>
             <Image
-              src='/skweb/04.jpg'
+              src={img04}
               alt='Picture of the author'
               objectFit='cover'
               height='640'
               width='1000'
+              placeholder='blur'
             />
           </div>
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/skweb/05.jpg'
+            src={img05}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='873'
             width='1500'
+            placeholder='blur'
           />
         </div>
       </div>

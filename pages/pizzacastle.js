@@ -2,13 +2,24 @@ import React from "react";
 import styles from "../styles/Pizza.module.css";
 import Image from "next/image";
 import Footer from "../components/Footer";
+import img01 from "../public/pizza/01.webp";
+import img02 from "../public/pizza/02.webp";
+import img03 from "../public/pizza/03.webp";
+import img04 from "../public/pizza/04.gif";
+import img05 from "../public/pizza/05.webp";
+import img06 from "../public/pizza/06.gif";
+import img07 from "../public/pizza/07.webp";
+import img08 from "../public/pizza/08.webp";
+import img09 from "../public/pizza/09.webp";
+import img10 from "../public/pizza/10.webp";
+
 export default function pizzacastle() {
   return (
     <>
       <div className={styles.container}>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/pizza/01.jpeg'
+            src={img01}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -36,48 +47,55 @@ export default function pizzacastle() {
         </div>
         <div className='wrapper '>
           <Image
-            src='/pizza/02.jpeg'
+            src={img02}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='938'
             width='2000'
+            placeholder='blur'
           />
         </div>
         <div className='twoimages'>
           <div className='wrapper '>
             <Image
-              src='/pizza/03.jpeg'
+              src={img03}
               alt='Picture of the author'
               objectFit='cover'
-              height='1300'
+              height='1120'
               width='1000'
+              placeholder='blur'
+              className='imgfix'
+              layout='responsive'
             />
           </div>
           <div className='wrapper '>
             <Image
-              src='/pizza/04.gif'
+              className='imgfix'
+              layout='responsive'
+              src={img04}
               alt='Picture of the author'
               objectFit='cover'
-              height='1300'
+              height='1120'
               width='1000'
             />
           </div>
         </div>
         <div className='wrapper '>
           <Image
-            src='/pizza/05.jpeg'
+            src={img05}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='938'
             width='2000'
+            placeholder='blur'
           />
         </div>
         <div className='twoimages'>
           <div className='wrapper '>
             <Image
-              src='/pizza/06.gif'
+              src={img06}
               alt='Picture of the author'
               objectFit='cover'
               height='1350'
@@ -86,41 +104,45 @@ export default function pizzacastle() {
           </div>
           <div className='wrapper '>
             <Image
-              src='/pizza/07.jpeg'
+              src={img07}
               alt='Picture of the author'
               objectFit='cover'
               height='1350'
               width='1000'
+              placeholder='blur'
             />
           </div>
         </div>
         <div className='wrapper '>
           <Image
-            src='/pizza/08.jpeg'
+            src={img08}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='938'
             width='2000'
+            placeholder='blur'
           />
         </div>
         <div className='twoimages'>
           <div className='wrapper '>
             <Image
-              src='/pizza/09.jpeg'
+              src={img09}
               alt='Picture of the author'
               objectFit='cover'
               height='1380'
               width='1000'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper '>
             <Image
-              src='/pizza/10.jpeg'
+              src={img10}
               alt='Picture of the author'
               objectFit='cover'
               height='1380'
               width='1000'
+              placeholder='blur'
             />
           </div>
         </div>

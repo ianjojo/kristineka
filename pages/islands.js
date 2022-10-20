@@ -2,13 +2,28 @@ import React from "react";
 import styles from "../styles/Islands.module.css";
 import Image from "next/image";
 import Footer from "../components/Footer";
+import Head from "next/head";
+
+import img01 from "../public/islands/01.webp";
+import img02 from "../public/islands/02.webp";
+import img03 from "../public/islands/03.webp";
+import img04 from "../public/islands/04.webp";
+import img05 from "../public/islands/05.gif";
+import img06 from "../public/islands/06.webp";
+import img07 from "../public/islands/07.webp";
+import img08 from "../public/islands/08.webp";
+import img09 from "../public/islands/09.webp";
+import img10 from "../public/islands/10.jpeg";
+import img11 from "../public/islands/11.webp";
+import img12 from "../public/islands/12.webp";
+
 export default function islands() {
   return (
     <>
       <div className={styles.container}>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/islands/01.jpeg'
+            src={img01}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -35,37 +50,40 @@ export default function islands() {
         <div className='twoimages'>
           <div className='wrapper '>
             <Image
-              src='/islands/02.jpeg'
+              src={img02}
               alt='Picture of the author'
               objectFit='cover'
               height='1300'
               width='1000'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper '>
             <Image
-              src='/islands/03.jpeg'
+              src={img03}
               alt='Picture of the author'
               objectFit='cover'
               height='1300'
               width='1000'
+              placeholder='blur'
             />
           </div>
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/islands/04.jpeg'
+            src={img04}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='938'
             width='2000'
+            placeholder='blur'
           />
         </div>
         <div className='twoimages'>
           <div className='wrapper '>
             <Image
-              src='/islands/05.gif'
+              src={img05}
               alt='Picture of the author'
               objectFit='cover'
               height='1300'
@@ -74,72 +92,79 @@ export default function islands() {
           </div>
           <div className='wrapper '>
             <Image
-              src='/islands/06.jpeg'
+              src={img06}
               alt='Picture of the author'
               objectFit='cover'
               height='1300'
               width='1000'
+              placeholder='blur'
             />
           </div>
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/islands/07.jpeg'
+            src={img07}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='938'
             width='2000'
+            placeholder='blur'
           />
         </div>
         <div className='twoimages'>
           <div className='wrapper '>
             <Image
-              src='/islands/08.jpeg'
+              src={img08}
               alt='Picture of the author'
               objectFit='cover'
               height='1300'
               width='1000'
+              placeholder='blur'
             />
           </div>
           <div className='wrapper '>
             <Image
-              src='/islands/09.jpeg'
+              src={img09}
               alt='Picture of the author'
               objectFit='cover'
               height='1300'
               width='1000'
+              placeholder='blur'
             />
           </div>
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/islands/10.jpeg'
+            src={img10}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='938'
             width='2000'
+            placeholder='blur'
           />
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/islands/11.jpeg'
+            src={img11}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='938'
             width='2000'
+            placeholder='blur'
           />
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/islands/12.jpeg'
+            src={img12}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='938'
             width='2000'
+            placeholder='blur'
           />
         </div>
       </div>

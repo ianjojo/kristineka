@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
 import styles from "../styles/Cannabis.module.css";
 import Footer from "../components/Footer";
 import img01 from "../public/cannabis/01.gif";
@@ -15,6 +16,10 @@ import img09 from "../public/cannabis/09.gif";
 export default function labietis() {
   return (
     <>
+      <Head>
+        <title>Kristine Kalva | Cannabis Potcast</title>
+        <meta property='og:title' content='Cannabis Potcast' key='title' />
+      </Head>
       <div className='blackbg'>
         <div className={styles.container}>
           <div className='wrapper imagewrapper'>

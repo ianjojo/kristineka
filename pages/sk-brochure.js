@@ -1,13 +1,20 @@
 import React from "react";
 import Image from "next/image";
 import Footer from "../components/Footer";
+import img01 from "../public/skbrochure/01.webp";
+import img02 from "../public/skbrochure/02.webp";
+import img03 from "../public/skbrochure/03.webp";
+import img04 from "../public/skbrochure/04.webp";
+import img05 from "../public/skbrochure/05.webp";
+import img06 from "../public/skbrochure/06.gif";
+import img07 from "../public/skbrochure/07.webp";
 export default function skbrochure() {
   return (
     <>
       <div className='container'>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/skbrochure/01.jpeg'
+            src={img01}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
@@ -32,48 +39,52 @@ export default function skbrochure() {
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/skbrochure/02.jpeg'
+            src={img02}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='873'
             width='1500'
+            placeholder='blur'
           />
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/skbrochure/03.jpeg'
+            src={img03}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='873'
             width='1500'
+            placeholder='blur'
           />
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/skbrochure/04.jpeg'
+            src={img04}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='873'
             width='1500'
+            placeholder='blur'
           />
         </div>
         <div className='wrapper imagewrapper'>
           <Image
-            src='/skbrochure/05.jpeg'
+            src={img05}
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
             height='873'
             width='1500'
+            placeholder='blur'
           />
         </div>
         <div className='twoimages smallgap'>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/skbrochure/06.gif'
+              src={img06}
               alt='Picture of the author'
               objectFit='cover'
               height='873'
@@ -82,11 +93,12 @@ export default function skbrochure() {
           </div>
           <div className='wrapper imagewrapper'>
             <Image
-              src='/skbrochure/07.jpeg'
+              src={img07}
               alt='Picture of the author'
               objectFit='cover'
               height='873'
               width='1000'
+              placeholder='blur'
             />
           </div>
         </div>
