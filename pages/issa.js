@@ -63,8 +63,8 @@ function issa() {
             alt='Picture of the author'
             layout='responsive'
             objectFit='cover'
-            height='873'
-            width='1500'
+            height='1022'
+            width='1750'
             placeholder='blur'
             className={styles.image}
           />

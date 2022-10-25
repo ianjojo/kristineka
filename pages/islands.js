@@ -20,6 +20,14 @@ import img12 from "../public/islands/12.jpeg";
 export default function islands() {
   return (
     <>
+      <Head>
+        <title>ISLANDS</title>
+        <meta
+          property='og:title'
+          content='Kristine Kalva | Islands'
+          key='title'
+        />
+      </Head>
       <div className={styles.container}>
         <div className='wrapper imagewrapper'>
           <Image
@@ -29,7 +37,7 @@ export default function islands() {
             objectFit='cover'
             height='1040'
             width='2500'
-            priority={true}
+            priority
           />
         </div>
         <div className={styles.textbox}>

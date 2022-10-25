@@ -4,13 +4,13 @@ import Head from "next/head";
 import styles from "../styles/Cannabis.module.css";
 import Footer from "../components/Footer";
 import img01 from "../public/cannabis/01.gif";
-import img02 from "../public/cannabis/02.webp";
+import img02 from "../public/cannabis/02.jpg";
 import img03 from "../public/cannabis/03.gif";
-import img04 from "../public/cannabis/04.webp";
-import img05 from "../public/cannabis/05.webp";
-import img06 from "../public/cannabis/06.webp";
-import img07 from "../public/cannabis/07.webp";
-import img08 from "../public/cannabis/08.webp";
+import img04 from "../public/cannabis/04.jpg";
+import img05 from "../public/cannabis/05.jpg";
+import img06 from "../public/cannabis/06.jpg";
+import img07 from "../public/cannabis/07.jpg";
+import img08 from "../public/cannabis/08.jpg";
 import img09 from "../public/cannabis/09.gif";
 
 export default function labietis() {
