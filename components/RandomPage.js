@@ -72,18 +72,18 @@ export default function RandomPage(props) {
   };
   return (
     <div className='random'>
-      <Link href={`/${random}`}>
-        <a className={`randomlink ${props.mode}`}>Random</a>
+      <Link href={`/${random}`} className={`randomlink ${props.mode}`}>
+        Random
       </Link>
       {prev === "sk-web" ? (
         ""
       ) : (
-        <Link href={`/${prev}`}>
-          <a className={`randomlink ${props.mode}`}>Previous</a>
+        <Link href={`/${prev}`} className={`randomlink ${props.mode}`}>
+          Previous
         </Link>
       )}
-      <Link href={`/${next}`}>
-        <a className={`randomlink ${props.mode}`}>Next</a>
+      <Link href={`/${next}`} className={`randomlink ${props.mode}`}>
+        Next
       </Link>
     </div>
   );

@@ -10,12 +10,12 @@ export default function Navbar(props) {
   return (
     <nav>
       <ul className='navbar'>
-        <Link href='/'>
+        <Link href='/' legacyBehavior>
           <li className='navbar__link'>
             <a>Kristine Kalva</a>
           </li>
         </Link>
-        <Link href='/about'>
+        <Link href='/about' legacyBehavior>
           <li className='navbar__link'>
             <a>About</a>
           </li>
