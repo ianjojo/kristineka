@@ -402,6 +402,16 @@ a:hover {
   .rightbox {
     padding: 16px;
   }
+  .project1,
+  .project2,
+  .project3,
+  .project4,
+  .project5,
+  .project6,
+  .project7,
+  .project8 {
+    display: none;
+  }
 }
 @media (max-width: 500px) {
   .navbar__link {
