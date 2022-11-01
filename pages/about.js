@@ -30,8 +30,7 @@ export default function about() {
               src={kristine}
               placeholder='blur'
               alt='Kristine'
-              width={1000}
-              height={639}
+              className='image'
             />
           </div>
           <p className='about-text'>
@@ -42,13 +41,10 @@ export default function about() {
           </p>
           <div className='wrapper center'>
             <Image
-              className='about-img'
+              className=' '
               src={breadlabels}
               placeholder='blur'
               alt='Bread Labels'
-              width={458}
-              height={458}
-              objectFit='contain'
             />
           </div>
           <p className='about-text'>

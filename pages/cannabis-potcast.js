@@ -27,9 +27,7 @@ export default function labietis() {
               src={img01}
               alt='Picture of the author'
               layout='responsive'
-              objectFit='cover'
-              height='678'
-              width='2000'
+              className='image'
             />
           </div>
           <div className='wrapper imagewrapper'>
@@ -37,9 +35,7 @@ export default function labietis() {
               src={img02}
               alt='Picture of the author'
               layout='responsive'
-              objectFit='cover'
-              height='688'
-              width='2000'
+              className='image'
             />
           </div>
           <div className={styles.textbox}>
@@ -68,18 +64,14 @@ export default function labietis() {
               <Image
                 src={img03}
                 alt='Picture of the author'
-                objectFit='cover'
-                height='1073'
-                width='1000'
+                className='image-portrait'
               />
             </div>
             <div className='wrapper imagewrapper'>
               <Image
                 src={img04}
                 alt='Picture of the author'
-                objectFit='cover'
-                height='1073'
-                width='1000'
+                className='image-portrait'
                 placeholder='blur'
               />
             </div>
@@ -88,10 +80,7 @@ export default function labietis() {
             <Image
               src={img05}
               alt='Picture of the author'
-              layout='responsive'
-              objectFit='cover'
-              height='988'
-              width='1500'
+              className='image'
               placeholder='blur'
             />
           </div>
@@ -99,10 +88,7 @@ export default function labietis() {
             <Image
               src={img06}
               alt='Picture of the author'
-              layout='responsive'
-              objectFit='cover'
-              height='1188'
-              width='1500'
+              className='image'
               placeholder='blur'
             />
           </div>
@@ -111,9 +97,7 @@ export default function labietis() {
               <Image
                 src={img07}
                 alt='Picture of the author'
-                objectFit='cover'
-                height='600'
-                width='1000'
+                className='image'
                 placeholder='blur'
               />
             </div>
@@ -121,22 +105,13 @@ export default function labietis() {
               <Image
                 src={img08}
                 alt='Picture of the author'
-                objectFit='cover'
-                height='600'
-                width='1000'
+                className='image'
                 placeholder='blur'
               />
             </div>
           </div>{" "}
           <div className='wrapper imagewrapper'>
-            <Image
-              src={img09}
-              alt='Picture of the author'
-              layout='responsive'
-              objectFit='cover'
-              height='988'
-              width='1500'
-            />
+            <Image src={img09} alt='Picture of the author' className='image' />
           </div>
         </div>
       </div>

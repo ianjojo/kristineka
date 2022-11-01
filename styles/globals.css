@@ -64,6 +64,8 @@ body {
  */
 
 .wrapper {
+  height: auto;
+  width: 100%;
   position: relative;
   font-size: 0;
 }
@@ -92,7 +94,32 @@ body {
 }
 .imglink {
   background-color: gainsboro; /* To visualize empty space */
-  /*  aspect-ratio: 16/9; */
+  aspect-ratio: 16/9;
+  /*
+    "contain" to see full original image with eventual empty space
+    "cover" to fill empty space with truncating
+    "fill" to stretch
+  */
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.image {
+  /* To visualize empty space */
+  aspect-ratio: 16/9;
+  /*
+    "contain" to see full original image with eventual empty space
+    "cover" to fill empty space with truncating
+    "fill" to stretch
+  */
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.image-portrait {
+  background-color: gainsboro; /* To visualize empty space */
+
   /*
     "contain" to see full original image with eventual empty space
     "cover" to fill empty space with truncating
@@ -101,6 +128,26 @@ body {
   object-fit: contain;
   width: 100%;
   height: auto;
+}
+.height {
+  height: 80vh;
+}
+.fullwidth {
+  width: 100%;
+  height: 100%;
+}
+.cover {
+  object-fit: contain;
+  width: auto;
+  height: 100%;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.fill {
+  object-fit: cover;
 }
 
 .about-img {
@@ -300,6 +347,10 @@ a:hover {
 .twoimages {
   display: flex;
   flex-direction: row;
+}
+.imagefit {
+  height: 100%;
+  width: auto;
 }
 
 .copyright {

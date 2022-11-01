@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../styles/skweb.module.css";
 import Footer from "../components/Footer";
 import img02 from "../public/skweb/02.webp";

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Footer from "../components/Footer";
 import img01 from "../public/skbrochure/01.webp";
 import img02 from "../public/skbrochure/02.webp";

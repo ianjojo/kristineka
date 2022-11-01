@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Pizza.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Footer from "../components/Footer";
 import img01 from "../public/pizza/01.webp";
 import img02 from "../public/pizza/02.webp";

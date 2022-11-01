@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../styles/Labietis.module.css";
 import Footer from "../components/Footer";
 import img01 from "../public/labietis/01.webp";
