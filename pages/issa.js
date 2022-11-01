@@ -88,7 +88,7 @@ function issa() {
               alt='Picture of the author'
               objectFit='cover'
               height='992'
-              width='800'
+              width='900'
               placeholder='blur'
               className={styles.image}
             />
@@ -99,7 +99,7 @@ function issa() {
               alt='Picture of the author'
               objectFit='cover'
               height='992'
-              width='800'
+              width='900'
               placeholder='blur'
               className={styles.image}
             />
@@ -134,7 +134,7 @@ function issa() {
               alt='Picture of the author'
               objectFit='cover'
               height='992'
-              width='800'
+              width='900'
               placeholder='blur'
               className={styles.image}
             />
@@ -145,7 +145,7 @@ function issa() {
               alt='Picture of the author'
               objectFit='cover'
               height='992'
-              width='800'
+              width='900'
               placeholder='blur'
               className={styles.image}
             />
