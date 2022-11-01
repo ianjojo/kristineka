@@ -389,6 +389,11 @@ a:hover {
 
   .twoimages {
     flex-direction: column;
+    gap: 24px;
+  }
+
+  .smallgap {
+    gap: 0;
   }
 }
 @media (max-width: 500px) {

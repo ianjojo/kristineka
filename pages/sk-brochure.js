@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/legacy/image";
 import Footer from "../components/Footer";
-import img01 from "../public/skbrochure/01.webp";
-import img02 from "../public/skbrochure/02.webp";
-import img03 from "../public/skbrochure/03.webp";
-import img04 from "../public/skbrochure/04.webp";
-import img05 from "../public/skbrochure/05.webp";
+import img01 from "../public/skbrochure/01.jpeg";
+import img02 from "../public/skbrochure/02.jpeg";
+import img03 from "../public/skbrochure/03.jpeg";
+import img04 from "../public/skbrochure/04.jpeg";
+import img05 from "../public/skbrochure/05.jpeg";
 import img06 from "../public/skbrochure/06.gif";
-import img07 from "../public/skbrochure/07.webp";
+import img07 from "../public/skbrochure/07.jpeg";
 export default function skbrochure() {
   return (
     <>

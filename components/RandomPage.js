@@ -19,6 +19,8 @@ export default function RandomPage(props) {
     } else if (pageName === "/issa") {
       setNext("gaan");
     } else if (pageName === "/gaan") {
+      setNext("pizzacastle");
+    } else if (pageName === "/pizzacastle") {
       setNext("sk-brochure");
     } else if (pageName === "/sk-brochure") {
       setNext("islands");

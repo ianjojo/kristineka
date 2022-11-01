@@ -2,15 +2,15 @@ import React from "react";
 import Image from "next/legacy/image";
 import styles from "../styles/Labietis.module.css";
 import Footer from "../components/Footer";
-import img01 from "../public/labietis/01.webp";
-import img02 from "../public/labietis/02.webp";
-import img03 from "../public/labietis/03.webp";
-import img04 from "../public/labietis/04.webp";
-import img05 from "../public/labietis/05.webp";
-import img06 from "../public/labietis/06.webp";
-import img07 from "../public/labietis/07.webp";
-import img08 from "../public/labietis/08.webp";
-import img09 from "../public/labietis/09.webp";
+import img01 from "../public/labietis/01.jpg";
+import img02 from "../public/labietis/02.png";
+import img03 from "../public/labietis/03.jpg";
+import img04 from "../public/labietis/04.jpg";
+import img05 from "../public/labietis/05.jpg";
+import img06 from "../public/labietis/06.jpg";
+import img07 from "../public/labietis/07.jpg";
+import img08 from "../public/labietis/08.jpg";
+import img09 from "../public/labietis/09.jpg";
 
 export default function labietis() {
   return (

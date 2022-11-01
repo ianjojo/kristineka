@@ -2,16 +2,16 @@ import React from "react";
 import styles from "../styles/Pizza.module.css";
 import Image from "next/legacy/image";
 import Footer from "../components/Footer";
-import img01 from "../public/pizza/01.webp";
-import img02 from "../public/pizza/02.webp";
-import img03 from "../public/pizza/03.webp";
+import img01 from "../public/pizza/01.jpeg";
+import img02 from "../public/pizza/02.jpeg";
+import img03 from "../public/pizza/03.jpeg";
 import img04 from "../public/pizza/04.gif";
-import img05 from "../public/pizza/05.webp";
+import img05 from "../public/pizza/05.jpeg";
 import img06 from "../public/pizza/06.gif";
-import img07 from "../public/pizza/07.webp";
-import img08 from "../public/pizza/08.webp";
-import img09 from "../public/pizza/09.webp";
-import img10 from "../public/pizza/10.webp";
+import img07 from "../public/pizza/07.jpeg";
+import img08 from "../public/pizza/08.jpeg";
+import img09 from "../public/pizza/09.jpeg";
+import img10 from "../public/pizza/10.jpeg";
 
 export default function pizzacastle() {
   return (

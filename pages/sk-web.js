@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Image from "next/legacy/image";
 import styles from "../styles/skweb.module.css";
 import Footer from "../components/Footer";
-import img02 from "../public/skweb/02.webp";
+import img02 from "../public/skweb/02.jpg";
 
-import img04 from "../public/skweb/04.webp";
-import img05 from "../public/skweb/05.webp";
+import img04 from "../public/skweb/04.jpg";
+import img05 from "../public/skweb/05.jpg";
 
 function skWeb() {
   return (
