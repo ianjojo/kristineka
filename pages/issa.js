@@ -81,14 +81,14 @@ function issa() {
             className={styles.image}
           />
         </div>
-        <div className='twoimages'>
+        <div className={styles.twoimages}>
           <div className={styles.imagewrapper}>
             <Image
               src={img05}
               alt='Picture of the author'
               objectFit='cover'
               height='992'
-              width='900'
+              width='750'
               placeholder='blur'
               className={styles.image}
             />
@@ -99,7 +99,7 @@ function issa() {
               alt='Picture of the author'
               objectFit='cover'
               height='992'
-              width='900'
+              width='750'
               placeholder='blur'
               className={styles.image}
             />
@@ -127,7 +127,7 @@ function issa() {
             placeholder='blur'
           />
         </div>
-        <div className='twoimages'>
+        <div className={styles.twoimages}>
           <div className={styles.imagewrapper}>
             <Image
               src={img09}
