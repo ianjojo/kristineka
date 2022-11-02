@@ -56,7 +56,7 @@ export default function about() {
           </p>
         </div>
       </div>
-      <Footer mode='whitefooter' />
+      <Footer mode='whitefooter' nolinks='true' />
     </>
   );
 }

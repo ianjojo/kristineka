@@ -13,7 +13,9 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-
+.none {
+  display: none;
+}
 .random {
   display: flex;
   justify-content: flex-end;

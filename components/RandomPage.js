@@ -72,8 +72,9 @@ export default function RandomPage(props) {
     let newUrl = pages[random];
     setRandom(newUrl);
   };
+  console.log(props);
   return (
-    <div className='random'>
+    <div className={`${props.nolinks === "true" ? "none" : "random"}`}>
       <Link href={`/${random}`} className={`randomlink ${props.mode}`}>
         Random
       </Link>
